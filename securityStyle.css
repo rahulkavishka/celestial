@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, rgb(193, 193, 193), rgb(255, 255, 255));
+}
+
+.contactUs {
+    padding: 30px;
+    margin-bottom: 60px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.terms {
+    padding: 30px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.privacy {
+    padding: 30px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}

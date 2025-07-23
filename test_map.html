@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="Images/b.png" type="image/png">
+  <title>Celestial | Pin Address</title>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcaZcqIareHWER8Rcae1YE9IRJKYHOPts"></script>
+</head>
+
+<body>
+  <div id="map" style="width: 80%; height: 500px;"></div>
+  <script>
+    function initMap() {
+      var colombo = { lat: 6.9271, lng: 79.8612 };
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 12,
+        center: colombo,
+      });
+      var marker = new google.maps.Marker({
+        position: colombo,
+        map: map,
+      });
+    }
+    window.onload = initMap;
+  </script>
+</body>
+
+</html>

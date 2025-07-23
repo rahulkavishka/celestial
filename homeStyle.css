@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    height: 560px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.firstImg {
+    width: 60%;
+}
+
+.container h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.shop-now-btn:hover {
+    background-color: #d4af37;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.firstImg img {
+    width: 100%;
+    object-fit: contain;
+    mask-image: linear-gradient(to right, transparent, black);
+}
+
+.cosmos {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.discover {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding-left: 70px;
+}
+
+.container_3 {
+    display: flex;
+    max-height: 500px;
+    vertical-align: center;
+}
+
+.aboutContent {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.aboutImg {
+    width: 50%;
+}
+
+.container_3 Img {
+    height: 500px;
+    mask-image: linear-gradient(to left, transparent, black);
+}

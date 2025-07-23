@@ -1,0 +1,195 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.image-section {
+    width: 50%;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to left, transparent, black);
+}
+
+.login-section {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.login-section h1 {
+    font-size: 35px;
+}
+
+.login-section p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.login-section input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.password-container {
+    position: relative;
+    font-size: 15px;
+}
+
+.password-container input {
+    width: 100%;
+    font-size: 15px;
+    width: 80%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    font-size: 12px;
+    align-content: center;
+}
+
+.login-btn {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 83%;
+    border-radius: 2px;
+}
+
+.login-btn:hover {
+    background-color: #d4af37;
+    color: black;
+}
+
+.google-btn {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 83%;
+    border-radius: 2px;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.logout-btn,
+.delete-btn {
+    font-family: "Montserrat", sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.logout-btn:hover,
+.delete-btn:hover {
+    background-color: #d4af37;
+    color: black;
+}
+
+.user-edit-form {
+    padding-right: 120px;
+}
+
+.edit-profile-btn {
+    background-color: #333;
+    color: white;
+    width: 300px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+    background-color: #d4af37;
+    color: #333;
+}
+
+.user-edit-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.save-btn,
+.cancel-btn {
+    width: 300px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #333;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.save-btn:hover {
+    background-color: #d4af37;
+    color: #333;
+}
+
+.cancel-btn {
+    background-color: #ccc;
+    margin-bottom: 30px;
+}
+
+.cancel-btn:hover {
+    background-color: #999;
+}
