@@ -1,1 +1,8 @@
+.env
+vendor/
+node_modules/
+.DS_Store
+*.log
+.vscode/
+.idea/
 .test_map
